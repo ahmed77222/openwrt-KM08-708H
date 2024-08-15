@@ -160,8 +160,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN } 
     - name: Setup Node.js environment
       uses: actions/setup-node@v4.0.3
-      with:
-        always-auth: false
+    # with:
+    #     always-auth: false
     # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
     #   node-version: # optional
     # File containing the version Spec of the version to use.  Examples: package.json, .nvmrc, .node-version, .tool-versions.
